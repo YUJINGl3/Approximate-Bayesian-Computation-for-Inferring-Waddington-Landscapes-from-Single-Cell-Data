@@ -14,3 +14,5 @@ from ABC-SMC with different distance metrics.
 transformed probability of cells in pluripotent states as metrics for results obtained from each distance metric. 
 
 "pair_plot.ipynb" generate the pair wise density plot for the ABC-SMC result.
+
+We found that the "ApproxBayes.jl" is not compatiable with the current version of Julia and "DifferentialEquations" package. Please visit "GpABC" for the ABC-SMC algorithm and change the distance metric as given in the notebook.
